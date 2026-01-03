@@ -22,8 +22,8 @@ sniffer/sniffer_log.txt
 # HOW TO TEST
 It's unbuilt so you have to compile and run. The sniffer uses Pcap4j jars that are already installed in sniffer/lib.
 
-1\. Compile and run up the network sniffer :
-cd into sniffer\
+1\. Compile and run up the network sniffer :<br>
+cd into sniffer\<br>
 compile:
 ```bash
 javac -cp "lib/*" -d out src/*.java
@@ -33,8 +33,8 @@ run Main:
 java -cp "out;lib/*" Main
 ```
 
-2\. Compile and run up the cracker :
-from root directory
+2\. Compile and run up the cracker :<br>
+from root directory<br>
 compile:
 ```bash
 javac -d ./cracker/out cracker/*.java
@@ -45,5 +45,5 @@ java -cp ./cracker/out/ cracker.Main
 ```
 
 ### Optional
-You can create and establish communication through a socket (using Java’s built-in networking libraries)
+You can create and establish communication through a socket (using Java’s built-in networking libraries).<br>
 Server and Client implemented in example_connection\ 
