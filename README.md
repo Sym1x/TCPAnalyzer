@@ -23,7 +23,7 @@ sniffer/sniffer_log.txt
 It's unbuilt so you have to compile and run. The sniffer uses Pcap4j jars that are already installed in sniffer/lib.
 
 1\. Compile and run up the network sniffer :<br>
-cd into sniffer\<br>
+**cd into sniffer\\** <br>
 compile:
 ```bash
 javac -cp "lib/*" -d out src/*.java
@@ -34,7 +34,7 @@ java -cp "out;lib/*" Main
 ```
 
 2\. Compile and run up the cracker :<br>
-from root directory<br>
+**from root directory**<br>
 compile:
 ```bash
 javac -d ./cracker/out cracker/*.java
